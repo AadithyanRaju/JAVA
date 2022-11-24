@@ -9,5 +9,6 @@ public class driver {
         if (s1.contains(s)) System.out.println("True");
         else System.out.println("False");
         if (s1.indexOf(ch)!=-1)System.out.println("Position: "+s1.indexOf(ch));
+        in.close();
     }
 }
