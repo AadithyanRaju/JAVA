@@ -6,7 +6,7 @@ public class driver {
     public static void main(String[] args) {
         String s1;
         Scanner scan=new Scanner(System.in);
-        System.out.println("enter string : ");
+        System.out.print("enter string : ");
         s1=scan.next();
         scan.close();
         StringBuffer s=new StringBuffer(s1);
